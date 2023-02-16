@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
      const theme = useTheme();
@@ -46,19 +47,22 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
          sx={{
            "& .pro-sidebar-inner": {
                background: `${colors.primary[400]} !important`,
-               height: "100% !important"
+               height: "auto !important"
            },
            "& .pro-icon-wrapper": {
              backgroundColor: "transparent !important",
            },
            "& .pro-inner-item": {
              padding: "5px 35px 5px 20px !important",
+             height: "auto !important"
            },
            "& .pro-inner-item:hover": {
              color: "#868dfb !important",
+             height: "auto !important"
            },
            "& .pro-menu-item.active": {
-             color: "#6870fa !important",
+             color: "#6870fa !important"
+      
            },
          }}
        >
@@ -96,7 +100,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                    <img
                      alt="profile-user"
                      width="100px"
-                     height="100px"
+                     height="auto"
                      src={`../../img/batman.png`}
                      style={{ cursor: "pointer", borderRadius: "50%" }}
                    />
@@ -108,7 +112,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                      fontWeight="bold"
                      sx={{ m: "10px 0 0 0" }}
                    >
-                     Pepe
+                     Meikit
                    </Typography>
                    <Typography variant="h5" color={colors.greenAccent[500]}>
                     SideBar Admin Role
@@ -122,6 +126,21 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
                  title="Dashboard"
                  to="/"
                  icon={<HomeOutlinedIcon />}
+                 selected={selected}
+                 setSelected={setSelected}
+               />
+   
+               <Typography
+                 variant="h6"
+                 color={colors.grey[300]}
+                 sx={{ m: "15px 0 5px 20px" }}
+               >
+                  Odoo
+               </Typography>
+               <Item
+                 title="Tabla de usuarios"
+                 to="/odoo"
+                 icon={<PeopleAltIcon />}
                  selected={selected}
                  setSelected={setSelected}
                />

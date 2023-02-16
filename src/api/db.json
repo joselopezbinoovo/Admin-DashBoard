@@ -1,0 +1,218 @@
+{
+    "odoo": [
+        {
+            "id": 1,
+            "empleado":{
+                "username": "Pepe López Cantero",
+                "avatar":"../../img/pepe.png"
+            },
+            "email": "joselopez@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "https://assets.materialup.com/uploads/bebad102-7f40-4941-99cd-54366113003e/avatar-08.png",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2,
+            "proyecto": "Zaera"
+            
+        },
+        {
+            "id": 2,
+            "empleado":{
+                "username": "Abel Marco",
+                "avatar":"../../img/abel.jpg"
+            },
+            "email": "abelmarco@binoovo.com",
+            "age": 40,
+            "phone": "601129668",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2
+            ,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 3,
+            "empleado":{
+                "username": "José María Pérez Muñoz",
+                "avatar":"../../img/pepito.png"
+            },
+            "email": "joseperez@meikit.es",
+            "age": 29,
+            "phone": "601129668",
+            "imagen": "../assets/img/pepito.png",
+            "estado": "Remoto",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2
+            ,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 4,
+            "empleado":{
+                "username": "Sergio Campos Pérez",
+                "avatar":"../../img/sergi.jpg"
+            },
+            "email": "sergiocampos@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/sergi.jpg",
+            "estado": "Remoto",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 5,
+            "empleado":{
+                "username": "Alvaro Castro Quijano",
+                "avatar":"../../img/alvaro.jpg"
+            },
+            "email": "alvarocastro@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/alvaro.jpg",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 6,
+            "empleado":{
+                "username": "David Martinez Pastor",
+                "avatar":"../../img/david.jpg"
+            },
+            "name": "David Martinez Pastor",
+            "email": "davidmartinez@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/david.jpg",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 7,
+            "empleado":{
+                "username": "Juan Soler Alcatraz",
+                "avatar":"../../img/juan.jpg"
+            },
+            "email": "juansoler@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/juan.jpg",
+            "estado": "PuestaMarcha",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":4,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 8,
+            "empleado":{
+                "username": "Nicolás Boggio Dervahanian",
+                "avatar":"../../img/nico.jpg"
+            },
+            "email": "nicolasboggio@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/nico.jpg",
+            "estado": "PuestaMarcha",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":4,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 9,
+            "empleado":{
+                "username": "Fernando Piñango Martínez",
+                "avatar":"../../img/fer.png"
+            },
+            "email": "fernandopinango@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/fer.png",
+            "estado": "vacaciones",
+            "horario": "8h",
+            "horarioTotal": 40,
+            "horasHoy":1,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 10,
+            "empleado":{
+                "username": "Pablo Gallardo Naroo",
+                "avatar":"../../img/pablo.jpg"
+            },
+            "email": "pablogallardo@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/pablo.jpg",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":0,
+            "proyecto": "Zaera"
+        },
+        {
+            "id": 11,
+            "empleado":{
+                "username": "Roberto Vicente Sancho",
+                "avatar":"../../img/roberto.png"
+            },
+            "name": "Roberto Vicente Sancho",
+            "email": "robertovicente@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/roberto.png",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":7,
+            "proyecto": " Zaera Calaf-Retrofit"
+        }
+        ,
+        {
+            "id": 12,
+            "empleado":{
+                "username": "Tomás Bastante Flo",
+                "avatar":"../../img/tomas.png"
+            },
+            "email": "tomasbastante@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/tomas.png",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":8,
+            "proyecto": "Binoovo"
+        }
+        ,
+        {
+            "id": 13,
+            "empleado":{
+                "username": "Alejandro Hernandez Rosa",
+                "avatar":"../../img/alex.png"
+            },
+            "email": "aljandrohernandez@meikit.es",
+            "age": 22,
+            "phone": "601129668",
+            "imagen": "../assets/img/alex.png",
+            "estado": "Oficina",
+            "horario": "8h",
+            "horarioTotal": "40",
+            "horasHoy":2,
+            "proyecto": "AgroFresh-Sollana-2"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+.oficina {
+
+    border: 2px solid #56b499;
+    background-color: aqua;
+
+    margin-left: 20000px;
+  }
+
+.remoto {
+  border: 2px solid red
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
